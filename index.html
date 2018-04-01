@@ -16,7 +16,8 @@ background-color: #26d0c9;
 }
 .header-list li {
   float: left;
-  padding: 33px 20px;
+  padding: 33px 20px ;
+
 }
 .me{
 font-size:36px;
@@ -33,6 +34,9 @@ font-family:italic;
     margin-left: auto;
     margin-right: auto;
     width: 35%;
+     box-shadow: 10px 10px 20px 20px #ccc;
+    cursor:pointer;
+     border-radius: 5px;
 }
 .about1{
   font-size:18px;
@@ -46,10 +50,12 @@ font-family:italic;
 }
 .image{
    background-image: url(pie.jpg);
+   box-shadow: 2px 2px 2px 2px #888888;
+
 }
 .resume{
   font-size:18px;
-  padding:3px;
+  padding:9px 9px 9px 9px;
   text-align:center;
 }
 a:link {
@@ -62,12 +68,24 @@ a:hover {
 a:visited {
     background-color: cyan;
 }
+.modols li{
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+
+
+}
+.hero{
+  font-size: 20px;
+}
 </style>
 </head>
 <body>
 
 
  <div class="header">
+
    <div class="header-logo"><a href="">Hritik Jain</a></div>
  <div class="header-list">
         <ul>
@@ -80,11 +98,19 @@ a:visited {
     </div>
     <div class="me"><center> Hritik Jain</center</div>
       <div class="quote"><center>"The more you know, the further you go"</center></div>
-      <img src="1.jpg" class="center" alt="Hritik Jain" >
+      <img src="1.jpg" class="center" alt="Hritik Jain"  >
       <div class="about1">Hello! I am Hritik Jain, currently a 2nd yr Information Technology </br> Engg student at SGSITS, Indore.</div>
       <div class="chart">The below picture pretty sums up how my entire day goes-</div>
       <img src="pie.jpg" class="image" width="300" height="300" ></img>
       <div class="resume">You can find my Resume <a href="https://drive.google.com/open?id=1DitiDVQ-gkoaGniNhW3ive6P7SKwUMkV">here</a> [Last updated: 20 FEB 2018]</div>
-
+      <p class="hero">For Hugs or Bugs find me at-</p>
+      <div class="modols">
+      <ul>
+        <li><a href="https://www.facebook.com/hritik.jain.10"><img src="index.png" width="50" /></a></li>
+        <li><a href="https://www.instagram.com/hritikjain.10/"><img src="ins.jpeg"width="50" /></a></li>
+        <li><a href="https://twitter.com/"><img src="twi.png" width="50"/></a></li>
+        <li><a href="https://www.linkedin.com/"><img src="o.png" width="50"/></a></li>
+      </ul>
+      </div>
 </body>
 </html>
